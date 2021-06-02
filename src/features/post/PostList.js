@@ -13,7 +13,7 @@ const PostList = () => {
       </Link>
     </article>
   ));
-
+  console.log(renderedPosts);
   return (
     <section className="posts-list">
       <h2>POSTS</h2>
